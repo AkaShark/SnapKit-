@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079E8BC70F76F56A0EB18680EDE2A843 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */; };
+		07B1DC5FD829AFC5F0A2AED075BD3E3D /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */; };
+		12B6DFDC2A301AE12751CF574D3E5256 /* Pods-SnapKit学习Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A3FE088A52537FD5B43D9F5F55AC4 /* Pods-SnapKit学习Tests-dummy.m */; };
+		15F5232FE0913883C751105CB534D8CD /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */; };
+		1C66D25099254CF492ED18E01E828600 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C4EE941C99C2F663494C43944D63FD /* ConstraintConfig.swift */; };
+		1EB39E3C9478ED958FC75CA1F5D59C08 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */; };
+		20B2542605CB65382A66F96B19CD24B3 /* Pods-SnapKit学习-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2421337B00A1D3324A750929A1BEB2A0 /* Pods-SnapKit学习-dummy.m */; };
+		29EE02C072B0DC3B4C6717023273B54B /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */; };
+		2E32F49C137A1EDEEA589C0C5399A06A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		305A3CEA91B3F158873EA69F7AAC9A22 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */; };
+		3D325DC14A31903F7BD6FF23FBF00A40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		467F34693C33ED491117DA9DD05CD1A5 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */; };
+		4E4A2EDB6A889EB7B2C40BDC8A51A7A4 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */; };
+		5013AB11DD92434AF8C115B5EC5C43D5 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CE3DCD5A18E652A9D4C4FCC6AEAE10 /* ConstraintMakerEditable.swift */; };
+		5663AFFAD52F9326A65681FCD2CCEB00 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A0FF4538E79F99D128BB1E6852833 /* SnapKit-dummy.m */; };
+		5CA4CC92B24B1F4308DFDC274B1BAC83 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */; };
+		6558F5284080E1557FDDE02302B93266 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2798FAD1ED522B9041959ED19ED6B3DE /* Constraint.swift */; };
+		6EF70282D5C9336BAF188D62D8C6AA9C /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */; };
+		7892A75F1F99F6F4E66D3201F4F44449 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C04C391051D0F007E876600190446365 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CAE0E3220C9492D2C0954792028A8F2 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */; };
+		7E76BE185BA978E9B280BF7937F28D65 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */; };
+		85A1C13A637634B640E5ADF010DA674D /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */; };
+		8773AC9D2DF36A73BA077ACC485EC9F5 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E795A4705B4FB474FF417682335F1 /* ConstraintMakerExtendable.swift */; };
+		951563371D51236D957821D29BC8705D /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B953D578152B8ABC94EDF5E0C6A43 /* LayoutConstraintItem.swift */; };
+		978F63362881480249B84949F72146EE /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */; };
+		98753508DA0D4A4B8C00108C764110EC /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */; };
+		A52393AA485390EAE858450BDBCAC550 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */; };
+		AB0BE17A60B31A092791B37ECF2424F3 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */; };
+		AD5DA00AE2490D02A4D445316D7737CF /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */; };
+		B7DBD7583167132B56E5F99DDE3A2A82 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */; };
+		B89B65D2A3BF20CEE76E3A74AAC7D081 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */; };
+		BD0C5AE561DE33312D6AC1F87CCD9285 /* Pods-SnapKit学习UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F6910589D9B3F1CC299BB2A087F2FB /* Pods-SnapKit学习UITests-dummy.m */; };
+		C25EF02E66309A90F4ECB5D31398FE6C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17F2D7F42352672F30A144E51AC809 /* ConstraintRelation.swift */; };
+		C2912E87459382A3411F0B398A885C49 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */; };
+		C33973B2EFED71413C4E23EFB3055B02 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E03888824F0BC09BC4827577C35087 /* Debugging.swift */; };
+		D16D8D79191523EC1D63CDF380A75621 /* Pods-SnapKit学习-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59AFCA321D3E1CF060411A6F203DE069 /* Pods-SnapKit学习-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D19AF184B755DED380AAD3533B4D08CD /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE14A5BE5AA8350526F042EBC920BAA /* ConstraintLayoutSupport.swift */; };
+		D5B1F0927B4C6FE49FFD5DF8F3FE2823 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */; };
+		D5EDB41F3C8FF5BA8759C7E99AC016AC /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */; };
+		D86C0F16C16B5E0DCCD7AF3E7A75D668 /* Pods-SnapKit学习UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF365021C33FC38CFC44D00B093EF4E9 /* Pods-SnapKit学习UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A25D357823275C78D68D96D903D7EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E943324442124FD9C9D2B8AB9D1D6085 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F0ACA874E439518F99CD305C2F0F94D1 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068A4C41AD3E035EFFE7E7F568CE1EF9 /* ConstraintLayoutGuideDSL.swift */; };
+		F369B908E607C9C32240C57E549EEF1E /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */; };
+		F38C58B4E09B33675E3086E6ABC0BC5F /* Pods-SnapKit学习Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DED44A02AE39FB550E81521758FF1651 /* Pods-SnapKit学习Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7EDDECAC7401A78E2A272EDCB0F7207 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F772FB261480C4D83559981C20D8F33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3785F42976CBCA9B7814DB5829DE3DA2;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F6910589D9B3F1CC299BB2A087F2FB /* Pods-SnapKit学习UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnapKit学习UITests-dummy.m"; sourceTree = "<group>"; };
+		0267430B11B14285AAD95AF0D2DE6E88 /* Pods-SnapKit学习Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapKit学习Tests.release.xcconfig"; sourceTree = "<group>"; };
+		068A4C41AD3E035EFFE7E7F568CE1EF9 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		125D5D6296BBE3B6CFF9FED60555B899 /* Pods-SnapKit学习UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapKit学习UITests-frameworks.sh"; sourceTree = "<group>"; };
+		155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		169A1FA0C91B8A2F6AE2996AA0BB659B /* Pods-SnapKit学习.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SnapKit学习.modulemap"; sourceTree = "<group>"; };
+		1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		23C4EE941C99C2F663494C43944D63FD /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		2421337B00A1D3324A750929A1BEB2A0 /* Pods-SnapKit学习-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnapKit学习-dummy.m"; sourceTree = "<group>"; };
+		2798FAD1ED522B9041959ED19ED6B3DE /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		2865362048DEFF2E6AC9D0F3C775F558 /* Pods-SnapKit学习UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapKit学习UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E368E79E8B7C9D5A753CA6E5A4F86D9 /* Pods-SnapKit学习UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapKit学习UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		3B53A39242B4ABE3F16F129A0029C937 /* Pods-SnapKit学习UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapKit学习UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F565E69D9E511EE2616DF1EF9F61D7E /* Pods_SnapKit__Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnapKit__Tests.framework; path = "Pods-SnapKit学习Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		48A85101C7CB000DBEE8F641490B02C6 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		48CE3DCD5A18E652A9D4C4FCC6AEAE10 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		51196F6FFB0A7808FADB27944ABB8C6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5159CA67D8D2E083819EA6C31696DE5A /* Pods-SnapKit学习Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapKit学习Tests-resources.sh"; sourceTree = "<group>"; };
+		5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		55892E188674C0BD075E5B23A1A60048 /* Pods-SnapKit学习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapKit学习.debug.xcconfig"; sourceTree = "<group>"; };
+		59AFCA321D3E1CF060411A6F203DE069 /* Pods-SnapKit学习-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapKit学习-umbrella.h"; sourceTree = "<group>"; };
+		5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		61035A04D5F52C6DEA9154FE086FF2BB /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68C79469E8F891A046B54B4D11472A82 /* Pods-SnapKit学习Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SnapKit学习Tests.modulemap"; sourceTree = "<group>"; };
+		7502D8CA143B422087B4A8BFDCF72E14 /* Pods-SnapKit学习Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapKit学习Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		840A3FE088A52537FD5B43D9F5F55AC4 /* Pods-SnapKit学习Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnapKit学习Tests-dummy.m"; sourceTree = "<group>"; };
+		861B8FDEB17B3479517F84CF85251923 /* Pods-SnapKit学习UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapKit学习UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8900B2020A6C784967F89DB459A475B2 /* Pods-SnapKit学习-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapKit学习-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		8DC3D526677D5E32913C4B4A33EE3B7E /* Pods-SnapKit学习Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapKit学习Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCECF0D7B12C66861DF280CAA2881DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6666ECC6D34D9021C029D753A1159BF /* Pods_SnapKit__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnapKit__.framework; path = "Pods-SnapKit学习.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		B47FC029D6C1069BB3551D803357D8FC /* Pods-SnapKit学习Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapKit学习Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		BAFB8FF18E753A7A776A1689B75C26FD /* Pods-SnapKit学习Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapKit学习Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC86433364E3FE903C9D0EBF16AAD11A /* Pods-SnapKit学习-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapKit学习-frameworks.sh"; sourceTree = "<group>"; };
+		BF365021C33FC38CFC44D00B093EF4E9 /* Pods-SnapKit学习UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapKit学习UITests-umbrella.h"; sourceTree = "<group>"; };
+		BF6A0FF4538E79F99D128BB1E6852833 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		C04C391051D0F007E876600190446365 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		C7A81798E273F99899CA4F6BF73B1B53 /* Pods-SnapKit学习UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapKit学习UITests-resources.sh"; sourceTree = "<group>"; };
+		C891CFD64212029E1907D51D03B51FC8 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		CE4FEB37DA8C66F6B8D53C0FC1FA28C1 /* Pods-SnapKit学习-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapKit学习-resources.sh"; sourceTree = "<group>"; };
+		D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		D35E795A4705B4FB474FF417682335F1 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		D69B953D578152B8ABC94EDF5E0C6A43 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		D6E03888824F0BC09BC4827577C35087 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		DA17F2D7F42352672F30A144E51AC809 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		DBE14A5BE5AA8350526F042EBC920BAA /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		DED44A02AE39FB550E81521758FF1651 /* Pods-SnapKit学习Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapKit学习Tests-umbrella.h"; sourceTree = "<group>"; };
+		EA053D5AF685212FC512FBDE0BEE6524 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC01ADFB1E2A235C3E84AB050D0D5858 /* Pods-SnapKit学习-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapKit学习-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED856D32F59BD3316EF5B35E14141702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		F32A998368E51E8D9DB1A0FF488BB201 /* Pods-SnapKit学习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapKit学习.release.xcconfig"; sourceTree = "<group>"; };
+		F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		FB2070BAA277A62CB8638D5E19DC8C55 /* Pods-SnapKit学习UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SnapKit学习UITests.modulemap"; sourceTree = "<group>"; };
+		FC21C93BF640A33F6A180DD54AE3D184 /* Pods_SnapKit__UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnapKit__UITests.framework; path = "Pods-SnapKit学习UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		FFDB6493F10D750C2B43763C43AD1EB1 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31A5F07CE3BC5DC0A24DE4CE49E7846E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A25D357823275C78D68D96D903D7EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D365E59D841162BA6DB30228CE5A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E32F49C137A1EDEEA589C0C5399A06A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86209DD7B533AA374DB78C259117011A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D325DC14A31903F7BD6FF23FBF00A40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC23F9ED7741D2486AE64FEA87B8284C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E943324442124FD9C9D2B8AB9D1D6085 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F14D01B37C684095099AE8C8376D636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACE3CBBE2C7163F9C96209ED44FA75D0 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14572039CD30D2C4A45E2654F01A77CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14645DF270EA594C48630BFE3FFE7473 /* Pods-SnapKit学习 */,
+				C17DD39179B3CCB03BFFFE929C56A13E /* Pods-SnapKit学习Tests */,
+				8D9A498BE4792059CA2681C370C1E746 /* Pods-SnapKit学习UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14645DF270EA594C48630BFE3FFE7473 /* Pods-SnapKit学习 */ = {
+			isa = PBXGroup;
+			children = (
+				ED856D32F59BD3316EF5B35E14141702 /* Info.plist */,
+				169A1FA0C91B8A2F6AE2996AA0BB659B /* Pods-SnapKit学习.modulemap */,
+				8900B2020A6C784967F89DB459A475B2 /* Pods-SnapKit学习-acknowledgements.markdown */,
+				EC01ADFB1E2A235C3E84AB050D0D5858 /* Pods-SnapKit学习-acknowledgements.plist */,
+				2421337B00A1D3324A750929A1BEB2A0 /* Pods-SnapKit学习-dummy.m */,
+				BC86433364E3FE903C9D0EBF16AAD11A /* Pods-SnapKit学习-frameworks.sh */,
+				CE4FEB37DA8C66F6B8D53C0FC1FA28C1 /* Pods-SnapKit学习-resources.sh */,
+				59AFCA321D3E1CF060411A6F203DE069 /* Pods-SnapKit学习-umbrella.h */,
+				55892E188674C0BD075E5B23A1A60048 /* Pods-SnapKit学习.debug.xcconfig */,
+				F32A998368E51E8D9DB1A0FF488BB201 /* Pods-SnapKit学习.release.xcconfig */,
+			);
+			name = "Pods-SnapKit学习";
+			path = "Target Support Files/Pods-SnapKit学习";
+			sourceTree = "<group>";
+		};
+		4762838CF26172976F1BC2F667BB1E33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA053D5AF685212FC512FBDE0BEE6524 /* Info.plist */,
+				C891CFD64212029E1907D51D03B51FC8 /* SnapKit.modulemap */,
+				48A85101C7CB000DBEE8F641490B02C6 /* SnapKit.xcconfig */,
+				BF6A0FF4538E79F99D128BB1E6852833 /* SnapKit-dummy.m */,
+				61035A04D5F52C6DEA9154FE086FF2BB /* SnapKit-prefix.pch */,
+				C04C391051D0F007E876600190446365 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0F14D01B37C684095099AE8C8376D636 /* Pods */,
+				BE3597CCEF04CBD9631228934650E20C /* Products */,
+				14572039CD30D2C4A45E2654F01A77CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D9A498BE4792059CA2681C370C1E746 /* Pods-SnapKit学习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DCECF0D7B12C66861DF280CAA2881DD /* Info.plist */,
+				FB2070BAA277A62CB8638D5E19DC8C55 /* Pods-SnapKit学习UITests.modulemap */,
+				2E368E79E8B7C9D5A753CA6E5A4F86D9 /* Pods-SnapKit学习UITests-acknowledgements.markdown */,
+				2865362048DEFF2E6AC9D0F3C775F558 /* Pods-SnapKit学习UITests-acknowledgements.plist */,
+				01F6910589D9B3F1CC299BB2A087F2FB /* Pods-SnapKit学习UITests-dummy.m */,
+				125D5D6296BBE3B6CFF9FED60555B899 /* Pods-SnapKit学习UITests-frameworks.sh */,
+				C7A81798E273F99899CA4F6BF73B1B53 /* Pods-SnapKit学习UITests-resources.sh */,
+				BF365021C33FC38CFC44D00B093EF4E9 /* Pods-SnapKit学习UITests-umbrella.h */,
+				3B53A39242B4ABE3F16F129A0029C937 /* Pods-SnapKit学习UITests.debug.xcconfig */,
+				861B8FDEB17B3479517F84CF85251923 /* Pods-SnapKit学习UITests.release.xcconfig */,
+			);
+			name = "Pods-SnapKit学习UITests";
+			path = "Target Support Files/Pods-SnapKit学习UITests";
+			sourceTree = "<group>";
+		};
+		ACE3CBBE2C7163F9C96209ED44FA75D0 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				2798FAD1ED522B9041959ED19ED6B3DE /* Constraint.swift */,
+				0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */,
+				23C4EE941C99C2F663494C43944D63FD /* ConstraintConfig.swift */,
+				155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */,
+				3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */,
+				645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */,
+				9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */,
+				5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */,
+				DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */,
+				AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */,
+				1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */,
+				068A4C41AD3E035EFFE7E7F568CE1EF9 /* ConstraintLayoutGuideDSL.swift */,
+				DBE14A5BE5AA8350526F042EBC920BAA /* ConstraintLayoutSupport.swift */,
+				92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */,
+				FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */,
+				48CE3DCD5A18E652A9D4C4FCC6AEAE10 /* ConstraintMakerEditable.swift */,
+				D35E795A4705B4FB474FF417682335F1 /* ConstraintMakerExtendable.swift */,
+				F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */,
+				8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */,
+				D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */,
+				618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */,
+				D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */,
+				1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */,
+				5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */,
+				EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */,
+				DA17F2D7F42352672F30A144E51AC809 /* ConstraintRelation.swift */,
+				35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */,
+				B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */,
+				B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */,
+				D6E03888824F0BC09BC4827577C35087 /* Debugging.swift */,
+				465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */,
+				D69B953D578152B8ABC94EDF5E0C6A43 /* LayoutConstraintItem.swift */,
+				3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */,
+				45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */,
+				4762838CF26172976F1BC2F667BB1E33 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3597CCEF04CBD9631228934650E20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6666ECC6D34D9021C029D753A1159BF /* Pods_SnapKit__.framework */,
+				3F565E69D9E511EE2616DF1EF9F61D7E /* Pods_SnapKit__Tests.framework */,
+				FC21C93BF640A33F6A180DD54AE3D184 /* Pods_SnapKit__UITests.framework */,
+				FFDB6493F10D750C2B43763C43AD1EB1 /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C17DD39179B3CCB03BFFFE929C56A13E /* Pods-SnapKit学习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51196F6FFB0A7808FADB27944ABB8C6C /* Info.plist */,
+				68C79469E8F891A046B54B4D11472A82 /* Pods-SnapKit学习Tests.modulemap */,
+				7502D8CA143B422087B4A8BFDCF72E14 /* Pods-SnapKit学习Tests-acknowledgements.markdown */,
+				B47FC029D6C1069BB3551D803357D8FC /* Pods-SnapKit学习Tests-acknowledgements.plist */,
+				840A3FE088A52537FD5B43D9F5F55AC4 /* Pods-SnapKit学习Tests-dummy.m */,
+				8DC3D526677D5E32913C4B4A33EE3B7E /* Pods-SnapKit学习Tests-frameworks.sh */,
+				5159CA67D8D2E083819EA6C31696DE5A /* Pods-SnapKit学习Tests-resources.sh */,
+				DED44A02AE39FB550E81521758FF1651 /* Pods-SnapKit学习Tests-umbrella.h */,
+				BAFB8FF18E753A7A776A1689B75C26FD /* Pods-SnapKit学习Tests.debug.xcconfig */,
+				0267430B11B14285AAD95AF0D2DE6E88 /* Pods-SnapKit学习Tests.release.xcconfig */,
+			);
+			name = "Pods-SnapKit学习Tests";
+			path = "Target Support Files/Pods-SnapKit学习Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B2C7DD9257C2143CE719EA50327A89A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16D8D79191523EC1D63CDF380A75621 /* Pods-SnapKit学习-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A100AE953493EAD0331503337AAF26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38C58B4E09B33675E3086E6ABC0BC5F /* Pods-SnapKit学习Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9011880001C09DF7C368DCA0D8D53E1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86C0F16C16B5E0DCCD7AF3E7A75D668 /* Pods-SnapKit学习UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6621F3EDD0BAB325997704E9D4CC565 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7892A75F1F99F6F4E66D3201F4F44449 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3785F42976CBCA9B7814DB5829DE3DA2 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1A9A54156B85526F8899CDA3393DB6 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				82AEA8D9B0D07785BC84DDC77571048B /* Sources */,
+				86209DD7B533AA374DB78C259117011A /* Frameworks */,
+				E6621F3EDD0BAB325997704E9D4CC565 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = FFDB6493F10D750C2B43763C43AD1EB1 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B69C7300F33EABA60D699A6BA369311 /* Pods-SnapKit学习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E2C89500FCE32C1D163B686CB0D0AA /* Build configuration list for PBXNativeTarget "Pods-SnapKit学习Tests" */;
+			buildPhases = (
+				4A3B380649B5D238F44597C8A673DC0E /* Sources */,
+				31A5F07CE3BC5DC0A24DE4CE49E7846E /* Frameworks */,
+				55A100AE953493EAD0331503337AAF26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SnapKit学习Tests";
+			productName = "Pods-SnapKit学习Tests";
+			productReference = 3F565E69D9E511EE2616DF1EF9F61D7E /* Pods_SnapKit__Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5384E05656E4CAADA3E323A8DB603C54 /* Pods-SnapKit学习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BBBB30261B288077FCABE92FF9BA5F6 /* Build configuration list for PBXNativeTarget "Pods-SnapKit学习UITests" */;
+			buildPhases = (
+				E54EC7436CC7B0D3CE4FD42F6C9BEA9F /* Sources */,
+				32D365E59D841162BA6DB30228CE5A64 /* Frameworks */,
+				9011880001C09DF7C368DCA0D8D53E1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SnapKit学习UITests";
+			productName = "Pods-SnapKit学习UITests";
+			productReference = FC21C93BF640A33F6A180DD54AE3D184 /* Pods_SnapKit__UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6DA919466004F0CE3A2E166040DA30A /* Pods-SnapKit学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7498DBF4504868BCEE50492EAE2A6487 /* Build configuration list for PBXNativeTarget "Pods-SnapKit学习" */;
+			buildPhases = (
+				84D562A1A40BE0F025FC0D05E7B7B235 /* Sources */,
+				BC23F9ED7741D2486AE64FEA87B8284C /* Frameworks */,
+				1B2C7DD9257C2143CE719EA50327A89A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91330A50DD0FA6C281E5588EE303D0C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SnapKit学习";
+			productName = "Pods-SnapKit学习";
+			productReference = A6666ECC6D34D9021C029D753A1159BF /* Pods_SnapKit__.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BE3597CCEF04CBD9631228934650E20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6DA919466004F0CE3A2E166040DA30A /* Pods-SnapKit学习 */,
+				3B69C7300F33EABA60D699A6BA369311 /* Pods-SnapKit学习Tests */,
+				5384E05656E4CAADA3E323A8DB603C54 /* Pods-SnapKit学习UITests */,
+				3785F42976CBCA9B7814DB5829DE3DA2 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3B380649B5D238F44597C8A673DC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B6DFDC2A301AE12751CF574D3E5256 /* Pods-SnapKit学习Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AEA8D9B0D07785BC84DDC77571048B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6558F5284080E1557FDDE02302B93266 /* Constraint.swift in Sources */,
+				305A3CEA91B3F158873EA69F7AAC9A22 /* ConstraintAttributes.swift in Sources */,
+				1C66D25099254CF492ED18E01E828600 /* ConstraintConfig.swift in Sources */,
+				978F63362881480249B84949F72146EE /* ConstraintConstantTarget.swift in Sources */,
+				98753508DA0D4A4B8C00108C764110EC /* ConstraintDescription.swift in Sources */,
+				5CA4CC92B24B1F4308DFDC274B1BAC83 /* ConstraintDSL.swift in Sources */,
+				D5EDB41F3C8FF5BA8759C7E99AC016AC /* ConstraintInsets.swift in Sources */,
+				29EE02C072B0DC3B4C6717023273B54B /* ConstraintInsetTarget.swift in Sources */,
+				4E4A2EDB6A889EB7B2C40BDC8A51A7A4 /* ConstraintItem.swift in Sources */,
+				AB0BE17A60B31A092791B37ECF2424F3 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				F7EDDECAC7401A78E2A272EDCB0F7207 /* ConstraintLayoutGuide.swift in Sources */,
+				F0ACA874E439518F99CD305C2F0F94D1 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				D19AF184B755DED380AAD3533B4D08CD /* ConstraintLayoutSupport.swift in Sources */,
+				6EF70282D5C9336BAF188D62D8C6AA9C /* ConstraintLayoutSupportDSL.swift in Sources */,
+				A52393AA485390EAE858450BDBCAC550 /* ConstraintMaker.swift in Sources */,
+				5013AB11DD92434AF8C115B5EC5C43D5 /* ConstraintMakerEditable.swift in Sources */,
+				8773AC9D2DF36A73BA077ACC485EC9F5 /* ConstraintMakerExtendable.swift in Sources */,
+				7E76BE185BA978E9B280BF7937F28D65 /* ConstraintMakerFinalizable.swift in Sources */,
+				1EB39E3C9478ED958FC75CA1F5D59C08 /* ConstraintMakerPriortizable.swift in Sources */,
+				D5B1F0927B4C6FE49FFD5DF8F3FE2823 /* ConstraintMakerRelatable.swift in Sources */,
+				AD5DA00AE2490D02A4D445316D7737CF /* ConstraintMultiplierTarget.swift in Sources */,
+				B89B65D2A3BF20CEE76E3A74AAC7D081 /* ConstraintOffsetTarget.swift in Sources */,
+				07B1DC5FD829AFC5F0A2AED075BD3E3D /* ConstraintPriority.swift in Sources */,
+				C2912E87459382A3411F0B398A885C49 /* ConstraintPriorityTarget.swift in Sources */,
+				7CAE0E3220C9492D2C0954792028A8F2 /* ConstraintRelatableTarget.swift in Sources */,
+				C25EF02E66309A90F4ECB5D31398FE6C /* ConstraintRelation.swift in Sources */,
+				F369B908E607C9C32240C57E549EEF1E /* ConstraintView+Extensions.swift in Sources */,
+				B7DBD7583167132B56E5F99DDE3A2A82 /* ConstraintView.swift in Sources */,
+				467F34693C33ED491117DA9DD05CD1A5 /* ConstraintViewDSL.swift in Sources */,
+				C33973B2EFED71413C4E23EFB3055B02 /* Debugging.swift in Sources */,
+				079E8BC70F76F56A0EB18680EDE2A843 /* LayoutConstraint.swift in Sources */,
+				951563371D51236D957821D29BC8705D /* LayoutConstraintItem.swift in Sources */,
+				5663AFFAD52F9326A65681FCD2CCEB00 /* SnapKit-dummy.m in Sources */,
+				15F5232FE0913883C751105CB534D8CD /* Typealiases.swift in Sources */,
+				85A1C13A637634B640E5ADF010DA674D /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D562A1A40BE0F025FC0D05E7B7B235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B2542605CB65382A66F96B19CD24B3 /* Pods-SnapKit学习-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54EC7436CC7B0D3CE4FD42F6C9BEA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0C5AE561DE33312D6AC1F87CCD9285 /* Pods-SnapKit学习UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91330A50DD0FA6C281E5588EE303D0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 3785F42976CBCA9B7814DB5829DE3DA2 /* SnapKit */;
+			targetProxy = F772FB261480C4D83559981C20D8F33E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4787C8CD1E9BE15A58BA6092E7576A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A85101C7CB000DBEE8F641490B02C6 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		932FE31301743ACA4D99C90FC3049BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0267430B11B14285AAD95AF0D2DE6E88 /* Pods-SnapKit学习Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapKit学习Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapKit学习Tests/Pods-SnapKit学习Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapKit__Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D28D764FF50DD4B51529A0FA3BF4757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFB8FF18E753A7A776A1689B75C26FD /* Pods-SnapKit学习Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapKit学习Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapKit学习Tests/Pods-SnapKit学习Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapKit__Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6D3D70D60BA104CA3722CCBC2AC75E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A85101C7CB000DBEE8F641490B02C6 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C10A209706CC3BF61D432C9994486061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B53A39242B4ABE3F16F129A0029C937 /* Pods-SnapKit学习UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapKit学习UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapKit学习UITests/Pods-SnapKit学习UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapKit__UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3A337DB3E442CE857B8BF5353C8B520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55892E188674C0BD075E5B23A1A60048 /* Pods-SnapKit学习.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapKit学习/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapKit学习/Pods-SnapKit学习.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapKit__;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4FAA221DE78D93F582BFB66E4D61145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 861B8FDEB17B3479517F84CF85251923 /* Pods-SnapKit学习UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapKit学习UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapKit学习UITests/Pods-SnapKit学习UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapKit__UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E99D0FB60BB8A0464AA4B9D0FB376DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32A998368E51E8D9DB1A0FF488BB201 /* Pods-SnapKit学习.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnapKit学习/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SnapKit学习/Pods-SnapKit学习.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SnapKit__;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BBBB30261B288077FCABE92FF9BA5F6 /* Build configuration list for PBXNativeTarget "Pods-SnapKit学习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10A209706CC3BF61D432C9994486061 /* Debug */,
+				C4FAA221DE78D93F582BFB66E4D61145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7498DBF4504868BCEE50492EAE2A6487 /* Build configuration list for PBXNativeTarget "Pods-SnapKit学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A337DB3E442CE857B8BF5353C8B520 /* Debug */,
+				E99D0FB60BB8A0464AA4B9D0FB376DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E2C89500FCE32C1D163B686CB0D0AA /* Build configuration list for PBXNativeTarget "Pods-SnapKit学习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D28D764FF50DD4B51529A0FA3BF4757 /* Debug */,
+				932FE31301743ACA4D99C90FC3049BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1A9A54156B85526F8899CDA3393DB6 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D3D70D60BA104CA3722CCBC2AC75E3 /* Debug */,
+				4787C8CD1E9BE15A58BA6092E7576A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
